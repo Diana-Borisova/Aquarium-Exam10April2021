@@ -18,6 +18,7 @@ public abstract class BaseAquarium implements Aquarium {
 
 
 
+
     public BaseAquarium(String name, int capacity) {
         this.setName(name);
         this.setCapacity(capacity);
@@ -26,6 +27,7 @@ public abstract class BaseAquarium implements Aquarium {
 
 
     }
+
 
     @Override
     public int calculateComfort() {
